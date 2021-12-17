@@ -1,3 +1,26 @@
+
+struct MineSpot {
+    row: u8,
+    col: u8,
+    neighbours: u8
+}
+
+
 pub fn annotate(minefield: &[&str]) -> Vec<String> {
-    unimplemented!("\nAnnotate each square of the given minefield with the number of mines that surround said square (blank if there are no surrounding mines):\n{:#?}\n", minefield);
+
+    //git commit change
+
+}
+
+fn create_table(minefield: &[&str]) -> Vec<MineSpot> {
+
+    let mut spots = Vec::new();
+
+    for m in minefield {
+        for n in m.chars() {
+            
+        }
+    }
+
+    spots
 }
